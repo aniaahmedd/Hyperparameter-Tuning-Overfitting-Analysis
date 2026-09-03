@@ -1,0 +1,13 @@
+{
+  "model": "XGBoost",
+  "parameters": {
+    "subsample": 0.6,
+    "n_estimators": 200,
+    "min_child_weight": 1,
+    "max_depth": 6,
+    "learning_rate": 0.2,
+    "gamma": 0,
+    "colsample_bytree": 1.0
+  },
+  "cv_f1_score": 0.9809282403332746
+}
